@@ -1,0 +1,110 @@
+.WeatherContener{
+    padding: 50px 90px;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.WeatherUiTop{
+/* background-color: #2f9cfc; */
+background: rgb(2,118,255);
+background: linear-gradient(90deg, rgba(2,118,255,1) 0%, rgba(31,158,251,1) 35%, rgba(87,212,255,1) 100%);
+width: 70%;
+height: 250px;
+border-radius: 10px;
+position: relative;
+}
+.WeatherUiTop h4{
+    background-color: #2525255e;
+    font-size: 20px;
+    color: white;
+    border-radius: 10px 10px 0px 0px;
+    padding: 15px;
+}
+.WeatherUiTop h1{
+    font-size: 110px;
+    color: white;
+    margin-left: 23px;
+    /* padding: 10px; */
+}
+.WeatherUiTop h2{
+    font-size: 25px;
+    color: white;
+    margin-left: 15px;
+}
+.WeatherUiTop h3{
+    font-size: 23px;
+    color: white;
+    margin-left: 15px;
+}
+.WeatherUiTop img {
+    position: absolute;
+    left: 700px;
+    bottom: 10px;
+    width: 180px;
+    background-color: #fff;
+    border-radius: 20px;
+}
+.WeatherButtomContener{
+    background-color: #eeeded44;
+    padding: 20px;
+    border-radius: 20px;
+    width: 70%;
+    box-shadow: 0 0 2px rgb(161, 161, 161);
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+.WeatherButtomCard{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 5px;
+}
+.Harorat{
+    display: flex;
+    flex-direction: column;
+
+}
+.Harorat span{
+    font-size: 80px;
+}
+.icon{
+    font-size: 20px;
+}
+.WeatherButtomLeft{
+display: flex;
+flex-direction: column;
+gap: 25px;
+}
+.WeatherButtomLeft h1{
+    font-size: 18px;
+    font-size: 18px;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    gap: 8px;
+}
+.weatherBox{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+    border-bottom: 1px solid rgba(77, 77, 77, 0.658);
+    padding: 7px;
+    width: 420px;
+}
+.WeatherButtomRight{
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+.WeatherButtomRight h1{
+  font-size: 18px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 8px;
+}
+.Loader{
+margin: 100px 630px;
+}

@@ -1,0 +1,36 @@
+.SearchRetsep {
+  padding: 12px;
+  margin: 20px;
+  border-radius: 5px;
+  border: 1px solid black;
+}
+.RetsepUi {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+}
+.RetsepContener {
+  padding: 10px 30px;
+}
+.RetsepUiCard {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  padding: 40px 25px;
+  border-radius: 20px;
+  background-color: antiquewhite;
+}
+.RetsepUiCard img {
+  width: 300px;
+  height: 300px;
+  border-radius: 10px;
+}
+.BuyBtn{
+    padding: 13px;
+    font-size: 17px;
+    border: none;
+    border-radius: 15px;
+    color: aliceblue;
+    background-color: #00ff5e;
+    width: 140px;
+}
